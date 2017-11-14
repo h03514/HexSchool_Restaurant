@@ -1,0 +1,181 @@
+* {
+    font-family: Helvetica, Arial, Microsoft JhengHei;
+    box-sizing: border-box;
+}
+
+
+
+/*===== nav =====*/
+
+.nav {
+    position: relative;
+    background-color: black;
+}
+
+.header {
+    height: 56px;
+    max-width: 1049px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    padding-top: 16px;
+    padding-left: 42px;
+    float: left;
+}
+
+.logo a {
+    display: block;
+    text-indent: 101%;
+    background-image: url(../img/logo_svg.svg);
+    white-space: nowrap;
+    overflow: hidden;
+    width: 120px;
+    height: 24px;
+}
+
+.menu {
+    display: block;
+    float: right;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    display: block;
+    color: #fff;
+    padding: 18px 12px 12px 12px;
+}
+
+.hamburger-menu {
+    display: none;
+    float: right;
+    background: black;
+    border: none;
+    cursor: pointer;
+    margin-top: 14px;
+    margin-right: 10px;
+}
+
+.icon-bar {
+    background-color: #fff;
+    display: block;
+    height: 4px;
+    margin: 0 auto 4px ;
+    width: 30px;
+}
+
+.icon-bar:first-child{
+  margin-top: 3px;
+}
+
+/*===== end nav =====*/
+
+/*===== banner =====*/
+.row-banner{
+  background-color: black;
+}
+
+.banner{
+  background-image: url(../img/header_desktop.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 364px;
+  max-width: 1049px;
+  margin: 0 auto;
+}
+
+.slogn{
+  background-color: rgba(0,0,0,.5);
+  margin: 0 auto;
+  top : 67px;
+  width: 460px;
+  position: relative;
+}
+
+.slogn-head{
+  font-size: 36px;
+  text-align: center;
+  padding-top: 20px;
+  line-height: 48px;
+  color: #fff;
+}
+
+.slogn-content{
+  padding-top: 16px;
+  text-align: center;
+  padding-bottom: 26px;
+  line-height: 25px;
+  color: #fff;
+}
+/*===== end banner =====*/
+/*===== footer =====*/
+.row-footer{
+  background-color: #EFE9E7;
+}
+
+.footer{
+  max-width: 1049px;
+  margin: 0 auto;
+  padding: 50px 42px;
+  color: #3d1101;
+}
+
+.about h3,.contact h3{
+  font-size: 24px;
+  padding-bottom: 16px;
+}
+
+.about{
+  width: 33.333%;
+  float: left;
+  padding-right: 21px;
+}
+
+.about p{
+  line-height: 20px;
+}
+
+.contact{
+  width: 28%;
+  float: left;  
+}
+
+.contact ul{
+  padding-left: 20px;
+}
+
+.contact li{
+  list-style-type: disc;
+  line-height: 20px;
+}
+
+.restaurant-logo{
+  width: 33.333%;
+  float: right;
+  text-align: right;
+}
+
+.icon{
+  font-size: 36px;
+  margin-top: 22px; 
+}
+
+.icon-google{
+  color: #DB4437;
+}
+
+.icon-twitter{
+  color: #41ABE1 ;
+}
+
+.icon-facebook{
+  color: #3A5795;
+}
+
+ 
+
+/*===== end footer =====*/
