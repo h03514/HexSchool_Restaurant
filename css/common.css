@@ -1,6 +1,22 @@
 * {
-    font-family: Helvetica, Arial, Microsoft JhengHei;
+    font-family: Helvetica, Arial, MicrosoftJhengHeiRegular;
     box-sizing: border-box;
+}
+
+a,
+p,
+h2,
+h3,
+h4,
+h5,
+h6,
+span {
+    color: #3D1101;
+}
+
+.container {
+    max-width: 1049px;
+    margin: 0 auto;
 }
 
 
@@ -64,118 +80,182 @@
     background-color: #fff;
     display: block;
     height: 4px;
-    margin: 0 auto 4px ;
+    margin: 0 auto 4px;
     width: 30px;
 }
 
-.icon-bar:first-child{
-  margin-top: 3px;
+.icon-bar:first-child {
+    margin-top: 3px;
 }
+
+@media screen and (max-width: 768px) {
+    .logo {
+        padding-left: 15px;
+    }
+
+    .menu {
+        display: none;
+    }
+    .hamburger-menu {
+        display: block;
+    }
+}
+
+
+
 
 /*===== end nav =====*/
 
+
 /*===== banner =====*/
-.row-banner{
-  background-color: black;
+
+.row-banner {
+    background-color: black;
 }
 
-.banner{
-  background-image: url(../img/header_desktop.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  height: 364px;
-  max-width: 1049px;
-  margin: 0 auto;
+.banner {
+    background-image: url(../img/header_desktop.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 364px;
+    max-width: 1049px;
+    margin: 0 auto;
 }
 
-.slogn{
-  background-color: rgba(0,0,0,.5);
-  margin: 0 auto;
-  top : 67px;
-  width: 460px;
-  position: relative;
+.slogan {
+    background-color: rgba(0, 0, 0, .5);
+    margin: 0 auto;
+    top: 67px;
+    width: 460px;
+    position: relative;
 }
 
-.slogn-head{
-  font-size: 36px;
-  text-align: center;
-  padding-top: 20px;
-  line-height: 48px;
-  color: #fff;
+.slogan-head {
+    font-size: 36px;
+    text-align: center;
+    padding-top: 20px;
+    line-height: 48px;
+    color: #fff;
 }
 
-.slogn-content{
-  padding-top: 16px;
-  text-align: center;
-  padding-bottom: 26px;
-  line-height: 25px;
-  color: #fff;
+.slogan-head span {
+    color: #fff;
 }
+
+.slogan-content {
+    padding-top: 16px;
+    text-align: center;
+    padding-bottom: 26px;
+    line-height: 25px;
+    color: #fff;
+}
+
+@media only screen and (max-width: 420px) {
+    .slogan {
+        width: 85%;
+    }
+}
+
+
+
 /*===== end banner =====*/
+
+
 /*===== footer =====*/
-.row-footer{
-  background-color: #EFE9E7;
+
+.row-footer {
+    background-color: #EFE9E7;
 }
 
-.footer{
-  max-width: 1049px;
-  margin: 0 auto;
-  padding: 50px 42px;
-  color: #3d1101;
+.footer {
+    max-width: 1049px;
+    margin: 0 auto;
+    padding: 50px 42px;
+    color: #3d1101;
 }
 
-.about h3,.contact h3{
-  font-size: 24px;
-  padding-bottom: 16px;
+.about h3,
+.contact h3 {
+    font-size: 24px;
+    padding-bottom: 16px;
 }
 
-.about{
-  width: 33.333%;
-  float: left;
-  padding-right: 21px;
+.about {
+    width: 33.333%;
+    float: left;
+    padding-right: 21px;
 }
 
-.about p{
-  line-height: 20px;
+.about p {
+    line-height: 20px;
 }
 
-.contact{
-  width: 28%;
-  float: left;  
+.contact {
+    width: 28%;
+    float: left;
 }
 
-.contact ul{
-  padding-left: 20px;
+.contact ul {
+    padding-left: 20px;
 }
 
-.contact li{
-  list-style-type: disc;
-  line-height: 20px;
+.contact li {
+    list-style-type: disc;
+    line-height: 20px;
 }
 
-.restaurant-logo{
-  width: 33.333%;
-  float: right;
-  text-align: right;
+.restaurant-logo {
+    width: 33.333%;
+    float: right;
+    text-align: right;
 }
 
-.icon{
-  font-size: 36px;
-  margin-top: 22px; 
+.icon {
+    font-size: 36px;
+    margin-top: 22px;
 }
 
-.icon-google{
-  color: #DB4437;
+.icon-google {
+    color: #DB4437;
 }
 
-.icon-twitter{
-  color: #41ABE1 ;
+.icon-twitter {
+    color: #41ABE1;
 }
 
-.icon-facebook{
-  color: #3A5795;
+.icon-facebook {
+    color: #3A5795;
 }
 
- 
+@media only screen and (max-width: 420px) {
+    .about,.contact {
+        width: 100%;
+        float: none;
+        padding: 0 0 30px 0;
+    }
+
+    .about h3,
+    .contact h3 {
+        font-size: 30px;
+    }
+
+    .about p,.contact p{
+      font-size: 20px;
+    }
+
+    .contact {
+        width: 100%;
+        float: left;
+    }
+
+    .restaurant-logo {
+        width: 100%;
+        float: none;
+        text-align: left;
+    }
+}
+
+
+
 
 /*===== end footer =====*/

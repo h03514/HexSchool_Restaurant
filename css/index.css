@@ -1,0 +1,395 @@
+/*===== content =====*/
+
+.row-content {
+    background-color: #EFE9E7;
+}
+
+.content {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.h2 {
+    min-width: 225px;
+    text-align: center;
+    display: inline-block;
+}
+
+.h2 h2 {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.hr {
+    display: inline-block;
+    position: relative;
+    border: 0;
+    top: -15px;
+    height: 1px;
+    background: #3d1101;
+    width: 15%;
+}
+
+.content-img li {
+    margin: 30px;
+    float: left;
+    width: calc(100% / 3 - 60px);
+}
+
+.content-img li img {
+    display: block;
+    width: 200px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.content-img li h3 {
+    margin-bottom: 11px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.content-img li p {
+    width: 260px;
+    letter-spacing: 1px;
+    line-height: 18px;
+}
+
+@media screen and (max-width: 768px) {
+    .content-img li {
+        margin: 31px 10px 20px 15px;
+        width: 30%;
+    }
+
+    .content-img li p {
+        width: 220px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .hr {
+        display: none;
+    }
+    .content-img li {
+        float: none;
+        width: 100%;
+    }
+
+    .content-img li p {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+}
+
+
+
+
+
+/*===== end content =====*/
+
+
+/*===== cooker =====*/
+
+.cooker-introduction {
+    background-color: #3D1101;
+}
+
+.cooker-intro h3,
+.cooker-intro h4,
+.cooker-intro p {
+    color: #EFE9E7;
+}
+
+.cooker-img {
+    max-width: 48%;
+    overflow: hidden;
+    float: left;
+    height: 460px;
+}
+
+.cooker-img img {
+    float: left;
+}
+
+.intro {
+    max-width: 48%;
+    float: left;
+    padding-left: 25px;
+}
+
+.intro h3 {
+    margin-top: 80px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.intro h4 {
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+.intro p {
+    width: 410px;
+    margin-top: 16px;
+    line-height: 22px;
+}
+
+@media screen and (max-width: 768px) {
+    .cooker-img {
+        margin-left: 15px;
+    }
+    .cooker-img img {
+        position: relative;
+        left: -85px;
+    }
+    .intro p {
+        width: 98%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .cooker-img {
+        max-width: 100%;
+        margin: 0;
+        overflow: hidden;
+        float: none;
+        height: auto;
+    }
+    .cooker-img img {
+        left: 0;
+        width: 100%;
+    }
+
+    .intro {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .intro h3 {
+        margin-top: 20px;
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+}
+
+
+
+
+
+/*===== end cooker =====*/
+
+
+/*===== customer-feedback =====*/
+
+.customer-feedback {
+    background-color: #EFE9E7;
+}
+
+.customer {
+    height: auto;
+}
+
+.customer-feedback h2 {
+    text-align: center;
+    font-size: 24px;
+    padding-top: 50px;
+    padding-bottom: 32px;
+}
+
+.customer ul li {
+    width: 33.3333%;
+    float: left;
+}
+
+.customer img {
+    display: block;
+    max-width: 100%;
+    float: left;
+    border-radius: 50%;
+    width: 67px;
+    height: 67px;
+}
+
+.customer-title {
+    float: left;
+    width: 75%;
+    padding-left: 13px;
+    padding-right: 2px;
+}
+
+.customer-title h4 {
+    max-width: 90px;
+    margin-top: 19px;
+    margin-bottom: 22px;
+    font-size: 18px;
+}
+
+.customer-title p {
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.customer-title span {
+    float: right;
+    margin-top: 16px;
+    padding-bottom: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .customer img {
+        margin: 0 auto;
+        float: none;
+    }
+    .customer-title {
+        width: 100%;
+        padding: 0 13px;
+    }
+    .customer-title h4 {
+        max-width: 100%;
+        text-align: center;
+    }
+    .customer-title p {
+        letter-spacing: 1px;
+        line-height: 24px;
+        text-align: left;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .customer ul li {
+        width: 100%;
+        padding: 0 20px 0 10%;
+    }
+    .customer img {
+        margin: 0 auto;
+        float: left;
+    }
+
+    .customer-title {
+        width: 100%;
+        padding-left: 15px;
+    }
+    .customer-title h4 {
+        max-width: 100%;
+        text-align: left;
+    }
+}
+
+
+
+
+/*===== end customer-feedback =====*/
+
+
+/*===== restaurant-location =====*/
+
+.restaurant-location {
+    background-color: #FAFAFA;
+    padding-bottom: 50px;
+}
+
+.restaurant-location h2 {
+    font-size: 24px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 38px;
+    line-height: 30px;
+}
+
+
+
+.location-img {
+    float: left;
+    max-width: 48%;
+}
+
+.location-img img {
+    height: 388px;
+    max-width: 470px;
+}
+
+.form {
+    width: 50%;
+    float: left;
+    margin: 0 20px;
+}
+
+.form p,
+.form .input {
+    width: 100%;
+    margin: 6px 0;
+}
+
+.form p {
+    font-size: 14px;
+}
+
+.form .input {
+    margin-top: 0;
+    padding-left: 12px;
+    font-size: 16px;
+    height: 32px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-shadow: inset 0px 1px 0px 0px #ECECEC;
+    border-radius: 3px;
+}
+
+.button {
+    margin-top: 30px;
+    text-align: right;
+}
+
+.pure-button {
+    width: 70px;
+    height: 32px;
+}
+
+.button-warning {
+    margin-left: 11px;
+}
+
+@media screen and (max-width: 768px) {
+    .location-img {
+        padding-left: 25px;
+        max-width: 44%;
+    }
+
+    .location-img img {
+        height: 388px;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .location-img {
+        padding: 0 15px;
+        max-width: 100%;
+    }
+    .location-img img {
+        height: auto;
+        max-width: 100%;
+    }
+
+    .form {
+        margin: 20px 0 0 0;
+        padding: 20px;
+        width: 100%;
+        float: left;
+    }
+
+    .form p {
+        font-size: 20px;
+    }
+
+    .restaurant-location{
+        padding-bottom: 20px;
+    }
+}
+
+
+
+/*===== end restaurant-location =====*/
